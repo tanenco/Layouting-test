@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+}
+
+* {
+  font-family: 'Muli', sans-serif;
+}
+
+.layouting {
+  display: flex;
+  width: 1400px;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.products {
+  padding-left: 37px;
+}
+
+.products:last-child {
+  padding: 0 auto;
+}
+
+img {
+  max-width: 436px;
+}
+
+.items {
+  font-size: 23px;
+  justify-content: center;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.ratings {
+  display: flex;
+  justify-content: center;
+}
+
+.ratings img {
+  padding-left: 15px;
+}
+
+.ratings p {
+  color: #808080;
+}
+
+.description {
+  color: #808080;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 36px;
+}
+
+.button1 {
+  margin-right: 15px;
+  padding: 9px 25px;
+  border: 2px solid black;
+  background: black;
+  color: white;
+  font-size: 17px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button2 {
+  margin-right: 15px;
+  padding: 9px 25px;
+  border: 2px solid black;
+  background: none;
+  color: black;
+  font-size: 17px;
+  text-align: center;
+  text-decoration: none;
+}
